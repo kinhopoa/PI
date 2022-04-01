@@ -1,0 +1,52 @@
+<%- include('./partials/head') %>
+<body>
+<%- include('./partials/navbar') %> 
+    <div class="container">
+        <br>
+        <div class="titulo">
+        <h3>Canecas</h3>
+        </div>
+        
+        <br>
+
+       <div class="card">
+           <div class="row">
+               <div class="col">
+           <div class="card-header">
+            <img src="/images/monitor.svg" height="120" class="rounded float-center" alt="...">
+            <img src="/images/monitor.svg" height="120" class="rounded float-center" alt="...">
+            <img src="/images/monitor.svg" height="120" class="rounded float-center" alt="...">
+            <img src="/images/monitor.svg" height="120" class="rounded float-center" alt="...">
+            <img src="/images/monitor.svg" height="120" class="rounded float-center" alt="...">
+           </div>
+       </div>
+    </div>
+       </div>  
+
+       <br>
+        <div class="card">
+            <br>
+           <div class="row">
+                <% for(let i=0; i < 21; i++) {  %> 
+               <div class="col">
+       <div class="card border-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Caneca #01</div>
+        <div class="card-body text-dark">
+          <h5 class="card-title">Caneca #01</h5>
+          <p class="card-text">Está é uma caneca</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-primary">Comprar</button>
+                    </div>
+             </div>
+            </div>
+        </div>
+        <% } %> 
+    </div>
+</div>
+       <br>
+       <hr>
+        </div>
+    
+
+</body>
+<%- include('./partials/footer') %>  

@@ -10,3 +10,23 @@
 .forma-pagamento h3{
     color: brown;
 }
+
+.finalizado {
+    color: green
+}
+
+.pendente {
+    color: #a7a7a7;
+}
+
+.cancelado {
+    color: red;
+}
+
+.card-header img{
+    margin: 0 38px;
+}
+
+.titulo{
+    text-align: center;
+}
