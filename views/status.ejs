@@ -1,0 +1,70 @@
+<%- include('./partials/head') %> 
+<link rel="stylesheet" href="/stylesheets/status.css">
+<body>
+  <%- include('./partials/navbar') %> 
+    <main>
+        <h1>Status do pedido</h1>
+        <section>
+            <div class = "icones">
+                <div class ="icone">
+                    <div>
+                    <img src = "./images/recebido.png">
+                    </div>
+                    Pedido recebido
+                </div>
+                <div class ="icone">
+                    <div>
+                    <img src = "./images/aguardando.png">
+                    </div>
+                    Aguardando pagamento
+                </div>
+                <div class ="icone">
+                    <div>
+                    <img src = "./images/enviado.png"> 
+                    </div>
+                    Pedido enviado
+                    <p>
+                    para transportadora
+                    </p>
+                </div>
+                <div class ="icone">
+                    <div>
+                    <img src = "./images/entregue.png">
+                    </div>
+                    Pedido entregue
+                </div>
+            </div>
+            <div class = texto>
+                <div class = "endereco text">
+                    <h3>
+                        Endereço de entrega:
+                    </h3>
+                    <p>
+                        Rua av. logo ali, 999
+                        </p><p>
+                        Bairro: fenda do biquini
+                        </p><p>
+                        CEP: 99.999-999
+                        </p><p>
+                        Município: Acre - AC
+                    </p>
+                </div>
+                <hr>
+                <div class = "detalhes text">
+                    <h3>
+                        Detalhes do pedido:
+                    </h3>
+                    <p>
+                        Pedido Nº: 0001
+                        </p><p>
+                        Pagamento: Cartão de crédito
+                        </p><p>
+                        Frete: R$45,00
+                        </p><p>
+                        Total do pedido: R$185,00
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
