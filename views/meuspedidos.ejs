@@ -1,0 +1,73 @@
+<%- include('./partials/head') %> 
+<body>
+  <%- include('./partials/navbar') %>
+
+  <br>
+  <div class="container">
+    <h3>Meus Pedidos</h3>
+    <br>
+    <table class="table table-dark">
+        <thead>
+            <td>Pedido</td>
+            <td>Valor</td>
+            <td>Data</td>
+            <td>Hora</td>
+            <td>Status</td>
+            </thead>
+        <tbody>
+
+        <tr class="table-active">
+            <td>Pedido Nº. 00001</td>
+            <td>caneca</td>
+            <td>04/01/2000</td>
+            <td>14:25:10</td>
+            <td class="pendente">Pendente</td>
+        </tr>
+
+        <tr class="table-active">
+            <td>Pedido Nº. 00002</td>
+            <td>caneca</td>
+            <td>03/01/2000</td>
+            <td>14:25:10</td>
+            <td class="finalizado">Finalizado</td>
+        </tr>
+
+        <tr class="table-active">
+            <td>Pedido Nº. 00003</td>
+            <td>caneca</td>
+            <td>09/01/2000</td>
+            <td>12:25:10</td>
+            <td class="pendente">Pendente</td>
+        </tr>
+
+        <tr class="table-active">
+            <td>Pedido Nº. 00004</td>
+            <td>caneca</td>
+            <td>09/01/2000</td>
+            <td>12:25:10</td>
+            <td class="cancelado">Cancelado</td>
+        </tr>
+
+        <tr class="table-active">
+            <td>Pedido Nº. 00005</td>
+            <td>caneca</td>
+            <td>01/01/2000</td>
+            <td>12:25:10</td>
+            <td class="cancelado">Cancelado</td>
+        </tr>
+
+        <tr class="table-active">
+            <td>Pedido Nº. 00006</td>
+            <td>caneca</td>
+            <td>19/01/2000</td>
+            <td>12:25:10</td>
+            <td class="finalizado">Finalizado</td>
+        </tr>
+
+
+        </tbody>
+  </table>
+
+  <hr>
+</div>
+  <%- include('./partials/footer') %></br>
