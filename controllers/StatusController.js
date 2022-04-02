@@ -4,4 +4,4 @@ const statuscontroller = {
     }
 }
 
-module.exports = statuscontroller
+module.exports = statuscontroller;
